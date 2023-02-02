@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  color: #fff;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font: normal normal medium 50px/59px Raleway, sans-serif;
+  letter-spacing: 0px;
+}
+
+.hero-section {
+  width: 100%;
+  height: 727px;
+  background-image: url(../imgs/bg-header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bajada {
+  display: flex;
+  width: 100%;
+  height: 348px;
+  gap: 106px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bajada p {
+  font: normal normal 300 16px/19px Raleway, sans-serif;
+  letter-spacing: 0px;
+  width: 475px;
+}
+
+.bajada img {
+  width: 399px;
+  height: 237px;
+}
+
+.car-section {
+  background-color: #1e1a13;
+  height: 348px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.car-section h2 {
+  font: normal normal medium 40px/47px Raleway, sans-serif;
+  text-align: center;
+}
+
+.caracteristicas {
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+  font: normal normal 300 25px/30px Raleway, sans-serif;
+}
+
+.caracteristica {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  width: 200px;
+}
+
+.fotos {
+  display: flex;
+  max-width: 100%;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.fotos img {
+  width: 316px;
+  height: 202px;
+}
+
+footer {
+  height: 102px;
+  width: 100%;
+  background-color: #1e1a13;
+  font: normal normal 300 20px/24px Raleway, sans-serif;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
